@@ -26,7 +26,8 @@ public class Contador {
 
         int counter = second - first;
         for (int index = 1; index <= counter; index++) {
-            System.out.printf("Imprimindo o número .2f", index);
+            System.out.printf("Imprimindo o número %d", index);
+            System.out.println("\n");
         }
     }
 }
